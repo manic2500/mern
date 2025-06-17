@@ -6,7 +6,12 @@
         "moduleResolution": "node",
         "sourceMap": true,
         "rootDir": "src",
-        "outDir": "dist"
+        "outDir": "dist",
+        "paths": {
+            "@common/*": [
+                "../common/*"
+            ]
+        }
     },
     "include": [
         "src"
@@ -16,7 +21,7 @@
     ],
     "references": [
         {
-            "path": "../types"
+            "path": "../common"
         }
     ]
 }

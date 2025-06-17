@@ -9,7 +9,7 @@ app.use(cors({
     origin: 'http://localhost:3000',
     credentials: true // optional: if you use cookies/auth headers
 }));
-import { User } from '../../types/index';
+import { User } from '@common/index';
 
 const exampleUser: User = {
     id: '123',

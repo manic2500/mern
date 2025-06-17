@@ -1,7 +1,6 @@
-import type { User } from '@types/user'; // ✅ Correct: named import from index.ts
-
 import './App.css'
 import { useEffect, useState } from 'react';
+import type { User } from "@common/user";
 
 
 function App() {
